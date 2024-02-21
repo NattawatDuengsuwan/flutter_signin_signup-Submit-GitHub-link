@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:onboarding_screen/component/my_botton.dart';
 import 'package:onboarding_screen/component/my_textfield.dart';
+import 'package:onboarding_screen/screen/home_screen.dart';
+
 
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({super.key});
@@ -107,7 +109,7 @@ class SignUpScreen extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SignUpScreen(),
+                        builder: (context) => HomeScreen(),
                       ),
                     );
                   },
